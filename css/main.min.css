@@ -1,0 +1,122 @@
+p {
+  hyphens: auto;
+  font-family: Arial;
+}
+.btn-mongoose {
+  background-color: #b9a580 !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+.social .btn {
+  border-radius: 50%;
+  max-width: 38px;
+  display: inline-block;
+}
+.social .btn i:not(.fa-facebook-f)::before {
+  position: relative;
+  left: -0.125em;
+}
+.social .btn.btn-dark {
+  background-color: #414141;
+  border-color: #414141 !important;
+}
+.social .btn.btn-light {
+  color: #58595b;
+}
+nav,
+h2,
+.btn-mongoose,
+#collections {
+  text-transform: uppercase;
+}
+div.footer {
+  background-color: #58595b;
+}
+div#base-container {
+  min-height: 100vh;
+}
+main,
+main a,
+main a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.excerpt,
+#collections .quick-link {
+  background-color: #202020;
+}
+.excerpt {
+  padding: 3rem;
+}
+#collections {
+  min-height: 330px;
+}
+.quick-link {
+  min-height: 100px;
+  padding: 1rem;
+  display: inline-flex;
+}
+.quick-link a {
+  text-align: center;
+  align-self: flex-end;
+}
+footer {
+  margin: 1rem 0 !important;
+}
+.quick-link a,
+h2 {
+  font-family: Intro, sans-serif !important;
+  font-weight: 700 !important;
+}
+header {
+  padding: 1rem 0;
+}
+@media (min-width: 768px) {
+  .typewriter {
+    font-family: "Archer Semibold", slab-serif;
+  }
+  #collections .featured a {
+    align-self: center;
+    font-size: 2rem;
+  }
+}
+h2,
+.quick-link a,
+article p {
+  text-shadow: 1px 1px 2px #000;
+}
+div.search input[type="search"],
+div.search button.btn {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.logo img {
+  max-height: 75px;
+}
+.quick-link {
+  background-size: cover;
+}
+#custom-handmade-pieces {
+  background-image: url(../img/custom-handmade-pieces.jpg);
+  background-position: right;
+}
+#quick-shops {
+  background-image: url(../img/quick-shops.jpg);
+  background-position: center;
+}
+#wedding-bands {
+  background-image: url(../img/wedding-bands.jpg);
+  background-position: center;
+}
+#mens-jewelry {
+  background-image: url(../img/mens-jewelry.jpg);
+  background-position: center bottom;
+}
+@media (min-width: 992px) {
+  #why-magic-stone {
+    background-image: url(../img/why-magic-stone.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
